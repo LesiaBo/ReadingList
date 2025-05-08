@@ -9,6 +9,7 @@ User story1: Give possibility to mark a book in the website catalog as user's fa
   For be able to see this book in list of my favorit books
   
   Acceptance criteria:
+    
     A1.1:
     Given I am on the book "Catalog" page
     When I click the “like” on a book
@@ -25,6 +26,7 @@ User story2: Give possibility to remove a book from a list of user favorit ones
   For be able to update list of my favorit books
 
   Acceptance criteria:
+
     A2.1:
     Given I have marked a book as favorite
     When I click the “like” icon again on that book
@@ -42,6 +44,7 @@ User story3: Give possibility to see a list of user favorit books
   For be able to remember what books I liked and suggest them to my friends
 
   Acceptance criteria:
+
     A3.1:
     Given I marked my favorite books with 'like' before
     When I navigate to the “Mina böcker” 
@@ -59,6 +62,7 @@ User story4: Give possibility to add a new book in to the website catalog
   So other users of the service can get know of this book and can read it too
 
   Acceptance criteria:
+
     A4.1:
     Given I am on 'add-book' page
     When I fill out the form with book's title and author
