@@ -9,6 +9,10 @@ def step_mark_book_as_favorit(context, title):
     book = context.page.get_by_test_id(f'star-{title}').click(timeout=1000)
     time.sleep(5)
 
+@given(u'I have not marked any books with \'like\' before')
+def step_dont_mark_any_book_with_like(context):
+    print("I didn't find any book I like yet")
+
 @then(u'The book "{title}" gets a \'heart\' mark')
 def step_check_if_book_is_marked_as_favorit(context, title):
     book = context.page.get_by_test_id(f'star-{title}')
